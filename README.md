@@ -19,3 +19,6 @@ Day 3 - Description & Link Tags
 Day 4 - Email and Image Tags
     - Email tags
     - Image tags
+
+Day 5 - Table Tags
+    - Table, Td, Th, Tr
