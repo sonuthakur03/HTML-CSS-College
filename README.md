@@ -22,3 +22,9 @@ Day 4 - Email and Image Tags
 
 Day 5 - Table Tags
     - Table, Td, Th, Tr
+
+Day 6 - Table Styles
+    - Border types
+    - Border color
+    - Table column width
+    - Table row width
