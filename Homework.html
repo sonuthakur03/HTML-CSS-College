@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Table 1 -->
+    <center>
+        <h1>Table 1</h1>
+        <table style="width: 50%; height: 100px;">
+            <tr>
+                <th colspan="4">Routine</th>
+            </tr>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <td rowspan="3">Break</td>
+                <th>Tuesday</th>
+            </tr>
+            <tr>
+                <td>Web and Tech</td>
+                <td>OOP</td>
+                <td>Java</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>C++</td>
+                <td>DSA</td>
+            </tr>
+        </table>
+        <h1>Table 2</h1>
+        <table style="width: 50%;">
+            <tr>
+                <th colspan="3">Student Details</th>
+            </tr>
+            <tr>
+                <th>S.N.</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ram</td>
+                <td>Kathmandu</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sita</td>
+                <td>Pokhara</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ramesh</td>
+                <td>Biratnagar</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Shyam</td>
+                <td>Pokhara</td>
+            </tr>
+        </table>
+        <h1>Table 3</h1>
+        <table style="width: 50%; height: 250px;">
+            <thead style="height: 125px;">
+                <tr>
+                    <th rowspan="2" style="width: 33%;"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red eyes</th>
+                </tr>
+                <tr>
+                    <th>height</th>
+                    <th>weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Males</td>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <td>Females</td>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>
