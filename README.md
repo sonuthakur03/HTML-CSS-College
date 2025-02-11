@@ -33,3 +33,6 @@ Day 7 - Table Modifications
     - Table Padding
     - Rowspan
     - Colspan
+
+Day 8 - Form
+    - Form and Labels
