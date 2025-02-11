@@ -28,3 +28,8 @@ Day 6 - Table Styles
     - Border color
     - Table column width
     - Table row width
+
+Day 7 - Table Modifications
+    - Table Padding
+    - Rowspan
+    - Colspan
