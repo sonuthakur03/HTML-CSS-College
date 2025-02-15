@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table Width</title>
     <style>
-        table,td,th{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+      }
+      table{
+        height: 400px;
+      }
+      th{
+        height: 150px;
+      }
+      td{
+        height: 100px;
+      }
+      table,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Table with width</h2>
-    <table style="width: 50%;" >
-        <tr>
-            <th style="width: 70%;">Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table style="width: 100%">
+      <tr>
+        <th style="width: 70%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
+      <tr>
+        <td>Issac</td>
+        <td>Thing</td>
+        <td>29</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>

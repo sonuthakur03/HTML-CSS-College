@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cell Spacing</title>
     <style>
-        table,th,td{
-            border:1px,solid black;
-            border-collapse:collapse;
-        }
-        th,td{
-          border-spacing: 30px;
-        }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+      table {
+        height: 300px;
+      }
+      th {
+        height: 150px;
+      }
+      td {
+        height: 100px;
+      }
+      table,
+      th,
+      td {
+        border: 1px, solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border-spacing: 30px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Cell spacing</h2>
-            <table style="width:100%">
-                <tr>
-                    <th>first name</th>
-                    <th>last name</th>
-                    <th>age</th>
-                </tr>
-                <tr>
-                    <td>Sonu</td>
-                    <td>Thakur</td>
-                    <td>20</td>
-                </tr>
-                <tr>
-                    <td>Ripesh</td>
-                    <td>Shrestha</td>
-                    <td>19</td>
-                </tr>
-            </table>
-</body>
+    <table style="width: 100%">
+      <tr>
+        <th>first name</th>
+        <th>last name</th>
+        <th>age</th>
+      </tr>
+      <tr>
+        <td>Sonu</td>
+        <td>Thakur</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Ripesh</td>
+        <td>Shrestha</td>
+        <td>19</td>
+      </tr>
+    </table>
+  </body>
 </html>

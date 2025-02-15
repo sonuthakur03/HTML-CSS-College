@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Padding</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell Padding</title>
     <style>
-        table, th, td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        th,td {
-            padding: 15px;
-        }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 75px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Cell Padding</h2>
-    <table style="width: 100%;"> 
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Sonu</td>
-            <td>Thakur</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Simon</td>
-            <td>Sharma</td>
-            <td>19</td>
-        </tr>
+    <table style="width: 100%">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Sonu</td>
+        <td>Thakur</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Simon</td>
+        <td>Sharma</td>
+        <td>19</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>

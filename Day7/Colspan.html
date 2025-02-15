@@ -5,8 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colspan</title>
     <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+      }
+      table {
+        height: 300px;
+      }
+      th {
+        height: 150px;
+      }
+      td {
+        height: 100px;
+      }
         table,td,th{
-            border: 1px solid black;
+            border: 2px solid black;
             border-collapse: collapse;
         }
     </style>

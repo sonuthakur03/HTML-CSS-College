@@ -1,187 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rounded table</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Bordertypes</title>
     <style>
-        table,td, th{
-            border: 1px solid black;
-            border-radius: 10px;
-            border-color: blue;
-        }
-        .dotted{
-            border-style: dotted;
-        }
-        .dashed{
-            border-style: dashed;
-        }
-        .solid{
-            border-style: solid;
-        }
-        .outset{
-            border-style: outset;
-        }
-        .inset{
-            border-style: inset;
-        }
-        .double{
-            border-style: double;
-        }
-        .hidden{
-            border-style: hidden;
-        }
+      body {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+      }
+
+      table {
+        border: 5px solid black;
+        border-radius: 10px;
+        border-color: black;
+        width: 100%;
+        height: 300px;
+      }
+      th{
+        height: 65px;
+      }
+
+      td{
+        height: 40px;
+      }
+
+      th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }
+      .dotted {
+        border-style: dotted;
+      }
+      .dashed {
+        border-style: dashed;
+      }
+      .solid {
+        border-style: solid;
+      }
+      .outset {
+        border-style: outset;
+      }
+      .inset {
+        border-style: inset;
+      }
+      .double {
+        border-style: double;
+      }
+      .hidden {
+        border-style: hidden;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h2>Table with rounded Borders</h2>
-    <table style="width: 100%;" class="rounded">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table  class="rounded">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
     <h2>Table with dotted Borders</h2>
-    <table style="width: 100%;" class="dotted">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table class="dotted">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with dashed Borders</h2>
-    <table style="width: 100%;" class="dashed">
-        <tr>
-            <th style="width: 70%;">Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table class="dashed">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with solid Borders</h2>
-    <table style="width: 100%; height: 100px;" class="solid">
-        <tr style="height: 50px;">
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table class="solid">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with double Borders</h2>
-    <table style="width: 100%;" class="double">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table  class="double">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with outset Borders</h2>
-    <table style="width: 100%;" class="outset">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table  class="outset">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with inset Borders</h2>
-    <table style="width: 100%;" class="inset">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table  class="inset">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
     <h2>Table with hidden Borders</h2>
-    <table style="width: 100%;" class="hidden">
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Ramesh</td>
-            <td>Shrestha</td>
-            <td>28</td>
-        </tr>
-        <tr>
-            <td>Shyam</td>
-            <td>Neupane</td>
-            <td>27</td>
-        </tr>
+    <table  class="hidden">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Ramesh</td>
+        <td>Shrestha</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <td>Shyam</td>
+        <td>Neupane</td>
+        <td>27</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>
