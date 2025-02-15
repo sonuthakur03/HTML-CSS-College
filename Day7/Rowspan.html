@@ -1,18 +1,50 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column;
-    text-align: center;
-  }
-  table {
-    height: 300px;
-  }
-  th {
-    height: 150px;
-  }
-  td {
-    height: 100px;
-  }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rowspan</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+      }
+      table {
+        height: 300px;
+      }
+      th {
+        height: 150px;
+      }
+      td {
+        height: 100px;
+      }
+      table,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Row Span</h2>
+    <table style="width: 100%">
+      <tr>
+        <td>Name</td>
+        <td>Sonu</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Phone</td>
+        <td>9803247273</td>
+      </tr>
+      <tr>
+        <td>9768401636</td>
+      </tr>
+    </table>
+  </body>
+</html>
