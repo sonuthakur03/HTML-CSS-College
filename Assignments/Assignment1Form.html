@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h2>Application Form</h2>
+    <form action="#">
+        <label for="fname">Firstname:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        
+        <label for="lname">Lastname:</label>    
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="pass" required><br><br>
+
+        <label for="Repass">Retype Password:</label>
+        <input type="password" id="Repass" name="Repass" required><br><br>
+
+        <label for="contact">Contact:</label>
+        <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
