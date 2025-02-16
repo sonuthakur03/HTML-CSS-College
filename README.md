@@ -37,3 +37,13 @@ Day 7 - Table Modifications
 
 Day 8 - Form
     - Form and Labels
+
+Day 9 - Input Types
+    - Text
+    - Password
+    - Email
+    - Number
+    - Date
+    - Checkbox
+    - Radio
+    - Submit
