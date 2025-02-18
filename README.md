@@ -47,3 +47,16 @@ Day 9 - Input Types
     - Checkbox
     - Radio
     - Submit
+
+Day 10 - CSS Introduction
+    CSS selectors
+    - Class Selector
+    - ID Selector
+    - Tag Selector
+    - Universal Selector
+    - Group Selector
+
+    CSS Inserting Methods
+    - Inline CSS
+    - Internal CSS
+    - External CSS
