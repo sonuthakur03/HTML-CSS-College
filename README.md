@@ -55,7 +55,6 @@ Day 10 - CSS Introduction
     - Tag Selector
     - Universal Selector
     - Group Selector
-
     CSS Inserting Methods
     - Inline CSS
     - Internal CSS
