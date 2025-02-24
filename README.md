@@ -59,3 +59,13 @@ Day 10 - CSS Introduction
     - Inline CSS
     - Internal CSS
     - External CSS
+
+Day 11 - Background Properties
+    - Background
+    - Background Color
+    - Background image
+Day 12  - Border Styles, Margin
+    - Border color
+    - Border Style
+    - Border Width
+    - Margin
