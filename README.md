@@ -69,3 +69,9 @@ Day 12  - Border Styles, Margin
     - Border Style
     - Border Width
     - Margin
+
+Day 13 - CSS Properties
+    - Box Model
+    - Justify Property
+    - Padding
+    - Text Properties
