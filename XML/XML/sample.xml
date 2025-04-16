@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+    <name>
+        <Firstname>Sonu</Firstname>
+        <Lastname>Thakur</Lastname>
+    </name>
+    <contact>
+        <mobile>9823610465</mobile>
+        <landline>015523061</landline>
+    </contact>
+    <address>
+        <city>Lalitpur</city>
+        <street>Sanepa</street>
+        <tole>Rajtirtha</tole>
+    </address>
+</employee>

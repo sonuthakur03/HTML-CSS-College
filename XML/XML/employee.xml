@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee>
+    <user id="1">
+        <name>Sonu</name>
+        <salary>8000000</salary>
+        <age>20</age>
+    </user>
+    <user id="2">
+        <name>Ripesh</name>
+        <salary>250000</salary>
+        <age>19</age>
+    </user>
+    <user id="3">
+        <name>Simon</name>
+        <salary>563412</salary>
+        <age>21</age>
+    </user>
+</employee>

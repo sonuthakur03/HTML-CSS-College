@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+    <employee>
+        <firstname>Sonu</firstname>
+        <lastname>Thakur</lastname>
+        <contact>9823610465</contact>
+        <email>sonu12@gmail.com</email>
+        <address>
+            <city>Lalitpur</city>
+            <tole>Sanepa</tole>
+            <zipcode>23567....</zipcode>
+        </address>
+    </employee>
+</company>

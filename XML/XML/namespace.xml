@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes xmlns:C9="http://www.myschool.com/class-9" xmlns:C10="http://www.myschool.com/class-10">
+    <C9:student>
+        <C9:name>Sonu</C9:name>
+        <C9:age>19</C9:age>
+        <C9:class>9</C9:class>
+    </C9:student>
+    <C10:student>
+        <C10:name>Ripesh</C10:name>
+        <C10:age>20</C10:age>
+        <C10:class>10</C10:class>
+    </C10:student>
+</classes>
